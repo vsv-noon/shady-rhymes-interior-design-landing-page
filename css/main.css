@@ -28,10 +28,11 @@ body {
 /* Header */
 
 .header {
+    margin-top: 40px;
     color: #fff;
     background-color: transparent;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     left: 0;
     right: 0;
 
@@ -40,7 +41,7 @@ body {
 .top {
     color: #fff;
     text-align: center;
-    margin-top: 236px;
+    padding-top: 236px;
     position: absolute;
     z-index: 2;
     left: 0;
@@ -52,8 +53,7 @@ body {
 }
 
 .header__top {
-    margin-top: 45px;
-    margin-bottom: 145px;    
+      
 }
 
 .header__row {
@@ -117,9 +117,7 @@ form option {
 
 .header__search-form {
     margin: auto;   
-    position: relative; 
-       
-    margin-bottom: 318px;
+    position: relative;    
     width: 360px;
     height: 60px;
     background: rgba(255, 255, 255, 0.5);
