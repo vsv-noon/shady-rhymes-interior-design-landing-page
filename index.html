@@ -3,12 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>Shady Rhymes Interior Design Landing Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <div class="container__common">
+    <div class="wrapper">
       <header class="header">
         <div class="container">
           <div class="header__top">
@@ -37,6 +41,10 @@
               </a>
             </nav>
           </div>
+        </div>
+      </header>
+      <main>
+        <section class="top">
           <div class="header__row">
             <div class="header__content">
               <h1 class="header__title">
@@ -60,14 +68,36 @@
                   <img src="./img/header/search.png" alt="" />
                 </button>
               </form>
-              <div class="slider">
-                <img src="./img/header/slider.png" alt="slider" />
-              </div>
             </div>
           </div>
+        </section>
+        <div class="slider">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div
+                class="swiper-slide"
+                style="
+                  background-image: url(./img/header/header-background.jpg);
+                "
+              ></div>
+              <div
+                class="swiper-slide"
+                style="
+                  background-image: url(./img/header/header-background.jpg);
+                "
+              ></div>
+              <div
+                class="swiper-slide"
+                style="
+                  background-image: url(./img/header/header-background.jpg);
+                "
+              ></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
-      </header>
-      <main>
         <section class="why-choosing-us">
           <div class="_container">
             <h1 class="title">Why Choosing Us</h1>
@@ -147,8 +177,9 @@
                 <li>
                   <p>
                     We are ready to help you build and also realize the room
-                    design that you dream of, with <br> our experts and also the best
-                    category recommendations from us
+                    design that you dream of, with <br />
+                    our experts and also the best category recommendations from
+                    us
                   </p>
                 </li>
                 <li>
@@ -157,9 +188,9 @@
                 <li>
                   <p>
                     Modern design is a term in the design world that refers to a
-                    house with a clean design,<br> 
-                    simple color choices, the use of
-                    materials including metal, glass, and steel, and is<br>
+                    house with a clean design,<br />
+                    simple color choices, the use of materials including metal,
+                    glass, and steel, and is<br />
                     usually accompanied by clean lines.
                   </p>
                 </li>
@@ -180,7 +211,13 @@
               </ul>
             </div>
             <div class="ideas__right-column">
-              <img src="./img/ideas/ideas.png" alt="Ideas" />
+              <picture>
+                <source
+                  media="(max-width:575px)"
+                  srcset="./img/mobile/ideas.jpg"
+                />
+                <img src="./img/ideas/ideas.png" alt="Ideas" />
+              </picture>
             </div>
           </div>
         </section>
@@ -316,7 +353,13 @@
         <section class="order">
           <div class="order__row">
             <div class="order__left-column">
-              <img src="./img/order/interior.png" alt="" />
+              <picture>
+                <source
+                  media="(max-width:575px)"
+                  srcset="./img/mobile/interior.jpg"
+                />
+                <img src="./img/order/interior.png" alt="Interior" />
+              </picture>
             </div>
             <div class="order__right-column">
               <h1 class="order__title">Make your room feel homey</h1>
@@ -389,5 +432,7 @@
         <p class="copyright">Copyright 2021 ©shady rhymes</p>
       </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

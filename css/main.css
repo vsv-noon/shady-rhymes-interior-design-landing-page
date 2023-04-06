@@ -15,8 +15,8 @@ body {
     display: none !important;
 }
 
-.container__common {
-    
+.wrapper {
+    min-height: 100%;    
 }
 
 .container {
@@ -28,14 +28,23 @@ body {
 /* Header */
 
 .header {
-    overflow: hidden;
-    
-    max-height: 1000px;   
-    /* background-size: contain; */
-    background-repeat: no-repeat;
-     
-    background-image: url(./../img/header/header-background.jpg);
     color: #fff;
+    background-color: transparent;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+
+}
+
+.top {
+    color: #fff;
+    text-align: center;
+    margin-top: 236px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
 }
 
 .header a {    
@@ -44,9 +53,7 @@ body {
 
 .header__top {
     margin-top: 45px;
-    margin-bottom: 145px;
-    
-    
+    margin-bottom: 145px;    
 }
 
 .header__row {
@@ -70,9 +77,6 @@ form option {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
-    
-    
-
 }
 
 .nav__list {
@@ -144,8 +148,30 @@ form option {
     
 }
 
-.slider {    
-    margin-bottom: 60px;
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.swiper-pagination-bullet {
+    position: relative;
+    bottom: 50px;
+    width: 10px;
+    height: 10px;    
+    opacity: 1;
+    background: #fff;
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #F79489;
+  }
+
+.swiper-pagination-horizontal.swiper-pagination-bullets
+.swiper-pagination-bullet {
+    margin: 0 15px; 
 }
 
 /* why-choosing-us */
@@ -497,3 +523,51 @@ color: #564E4E;
     color: #FFFFFF;
 }
 
+@media screen and (max-width:575px) {
+    .container__common {
+        max-width: 575px;
+        margin: 0 auto;
+        /* height: 5382px; */
+    }
+
+    .header {
+        /* max-width: 475px; */
+        background-image: url(./../img/mobile/header-background.jpg);
+    }
+
+    .why-choosing-us .title {
+        display: none;
+    }
+
+    .why-choosing-us__row {
+        /* display: flex; */
+        flex-wrap: wrap;
+    }
+
+    .ideas__row {        
+        flex-direction: column-reverse;
+        /* width: 575px; */
+        /* flex-wrap: wrap; */
+    }
+
+    .ideas {
+        max-width: 100%;
+    }
+
+    .product__row {
+        flex-wrap: wrap;
+    }
+
+    .customers__row {
+        flex-wrap: wrap;
+    }
+
+    .order__row {
+        flex-wrap: wrap;
+    }
+
+    .footer__row {
+        flex-wrap: wrap;
+    }
+
+}
