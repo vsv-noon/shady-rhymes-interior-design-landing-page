@@ -151,31 +151,7 @@ form option{
   padding-left: 10px;
 }
 
-.swiper-slide {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
 
-.swiper-pagination-bullet {
-  position: relative;
-  bottom: 50px;
-  width: 10px;
-  height: 10px;
-  opacity: 1;
-  background: #fff;
-}
-
-.swiper-pagination-bullet-active {
-  color: #fff;
-  background: #f79489;
-}
-
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
-  margin: 0 15px;
-}
 
 /* why-choosing-us */
 
@@ -186,7 +162,7 @@ form option{
 }
 
 .why-choosing-us .title {
-  padding-top: 90px;
+  padding-top: 0px;
   padding-bottom: 40px;
   padding-left: 80px;
 }
