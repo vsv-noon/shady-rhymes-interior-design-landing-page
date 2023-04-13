@@ -11,6 +11,8 @@
     /> -->
     <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/spoiler.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
@@ -169,12 +171,12 @@
         <section class="ideas">
           <div class="ideas__row">
             <div class="ideas__left-column flex-item">
-              <h1 class="title">Visualize your ideas with us</h1>
-              <p>
+              <div class="idea__title">Visualize your ideas with us</div>
+              <div class="idea__h3">
                 We are ready to help you build and also realize the room design
                 that you dream of, with our experts and also the best category
                 recommendations from us
-              </p>
+              </div>
               <button class="accordion">Modern</button>
               <div class="panel">
                 <p>
@@ -323,10 +325,13 @@
             </div>
           </div>
         </section>
+
         <section class="customers">
-          <h1 class="customers__title">What they say about our services</h1>
-          <div class="customers__row">
-            <div class="customer__1">
+          <div class="customers__title">
+            <h1 class="customers__title">What they say about our services</h1>
+          </div>
+          <div class="customers__slider">
+            <div class="customer__item">
               <h2 class="customer__title">Best planning service</h2>
               <div class="customer__text">
                 <p>
@@ -335,7 +340,7 @@
                   beyond to help me configure my perfect walk in wardobe room.
                 </p>
               </div>
-              <div class="customer">
+              <div class="customer__info">
                 <img src="./img/customers/customer1.png" alt="" class="photo" />
                 <div class="customer__name">
                   <h3>John doe</h3>
@@ -343,7 +348,7 @@
                 </div>
               </div>
             </div>
-            <div class="customer__2">
+            <div class="customer__item">
               <h2 class="customer__title">Flexible and reliable</h2>
               <div class="customer__text">
                 <p>
@@ -352,7 +357,7 @@
                   a doubt! Love!
                 </p>
               </div>
-              <div class="customer">
+              <div class="customer__info">
                 <img src="./img/customers/customer2.png" alt="" class="photo" />
                 <div class="customer__name">
                   <h3>Woods Moniq</h3>
@@ -360,7 +365,7 @@
                 </div>
               </div>
             </div>
-            <div class="customer__3">
+            <div class="customer__item">
               <h2 class="customer__title">solution innovative</h2>
               <div class="customer__text">
                 <p>
@@ -370,7 +375,7 @@
                   YOU and your style.
                 </p>
               </div>
-              <div class="customer">
+              <div class="customer__info">
                 <img src="./img/customers/customer3.png" alt="" class="photo" />
                 <div class="customer__name">
                   <h3>Denis Rara</h3>
@@ -378,13 +383,110 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="customers__slider">
-            <img
-              class="customers__slider--img"
-              src="./img/header/slider.png"
-              alt="slider"
-            />
+            <div class="customer__item">
+              <h2 class="customer__title">Best planning service</h2>
+              <div class="customer__text">
+                <p>
+                  I had fantastic experience at shady rhymes with pax planner,
+                  shady rhymes was so helpful and friendly and went above and
+                  beyond to help me configure my perfect walk in wardobe room.
+                </p>
+              </div>
+              <div class="customer__info">
+                <img src="./img/customers/customer1.png" alt="" class="photo" />
+                <div class="customer__name">
+                  <h3>John doe</h3>
+                  <p>Project manager of cupalo</p>
+                </div>
+              </div>
+            </div>
+            <div class="customer__item">
+              <h2 class="customer__title">Flexible and reliable</h2>
+              <div class="customer__text">
+                <p>
+                  Terrific work from beginning to end can work any angle from
+                  minimal help to complete project handling professional without
+                  a doubt! Love!
+                </p>
+              </div>
+              <div class="customer__info">
+                <img src="./img/customers/customer2.png" alt="" class="photo" />
+                <div class="customer__name">
+                  <h3>Woods Moniq</h3>
+                  <p>Freelancer</p>
+                </div>
+              </div>
+            </div>
+            <div class="customer__item">
+              <h2 class="customer__title">solution innovative</h2>
+              <div class="customer__text">
+                <p>
+                  "I loved working with Darla shady rhymes for about 2 years and
+                  highly recommend anyone looking for an interior designer
+                  agency who brings creativity but designs something that fits
+                  YOU and your style.
+                </p>
+              </div>
+              <div class="customer__info">
+                <img src="./img/customers/customer3.png" alt="" class="photo" />
+                <div class="customer__name">
+                  <h3>Denis Rara</h3>
+                  <p>Architect at BPPLU</p>
+                </div>
+              </div>
+            </div>
+            <div class="customer__item">
+              <h2 class="customer__title">Best planning service</h2>
+              <div class="customer__text">
+                <p>
+                  I had fantastic experience at shady rhymes with pax planner,
+                  shady rhymes was so helpful and friendly and went above and
+                  beyond to help me configure my perfect walk in wardobe room.
+                </p>
+              </div>
+              <div class="customer__info">
+                <img src="./img/customers/customer1.png" alt="" class="photo" />
+                <div class="customer__name">
+                  <h3>John doe</h3>
+                  <p>Project manager of cupalo</p>
+                </div>
+              </div>
+            </div>
+            <div class="customer__item">
+              <h2 class="customer__title">Flexible and reliable</h2>
+              <div class="customer__text">
+                <p>
+                  Terrific work from beginning to end can work any angle from
+                  minimal help to complete project handling professional without
+                  a doubt! Love!
+                </p>
+              </div>
+              <div class="customer__info">
+                <img src="./img/customers/customer2.png" alt="" class="photo" />
+                <div class="customer__name">
+                  <h3>Woods Moniq</h3>
+                  <p>Freelancer</p>
+                </div>
+              </div>
+            </div>
+            <div class="customer__item">
+              <h2 class="customer__title">solution innovative</h2>
+              <div class="customer__text">
+                <p>
+                  "I loved working with Darla shady rhymes for about 2 years and
+                  highly recommend anyone looking for an interior designer
+                  agency who brings creativity but designs something that fits
+                  YOU and your style.
+                </p>
+              </div>
+              <div class="customer__info">
+                <img src="./img/customers/customer3.png" alt="" class="photo" />
+                <div class="customer__name">
+                  <h3>Denis Rara</h3>
+                  <p>Architect at BPPLU</p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
         <section class="order">
@@ -472,6 +574,16 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/spoiler.js"></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

@@ -14,8 +14,9 @@
 
  .accordion::after {
     content: '\02795';  /* Символ юникода для "плюса" знак (+) */
-    font-size: 13px;
-    color: #777;
+    font-size: 20px;
+    color: transparent;
+    text-shadow: 0 0 0 #FADCD9;
     float: right;
     margin-left: 5px;
 } 
