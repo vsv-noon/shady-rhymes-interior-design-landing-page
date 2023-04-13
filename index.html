@@ -10,6 +10,7 @@
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     /> -->
     <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/spoiler.css" />
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
@@ -83,7 +84,7 @@
               <div
                 class="swiper-slide"
                 style="
-                  background-image: url(./img/header/header-background.jpg);
+                  background-image: url(./img/header/header-background-2.jpg);
                 "
               ></div>
               <div
@@ -104,10 +105,7 @@
               <a href="!#" class="active">
                 <div class="why-choosing-us__block professionalism active">
                   <div class="why-choosing-us__img">
-                    <img
-                      src="./img/mobile/professionalism-mobile.svg"
-                      alt=""
-                    />
+                    <img src="./img/mobile/professionalism-mobile.svg" alt="" />
                   </div>
                   <div class="why-choosing-us__row__title">Professionalism</div>
                   <div class="why-choosing-us__row__text">
@@ -172,40 +170,50 @@
           <div class="ideas__row">
             <div class="ideas__left-column flex-item">
               <h1 class="title">Visualize your ideas with us</h1>
-              <ul>
-                <li>
-                  <p>
-                    We are ready to help you build and also realize the room
-                    design that you dream of, with our experts and also the best
-                    category recommendations from us
-                  </p>
-                </li>
-                <li>
-                  <p>Modern</p>
-                </li>
-                <li>
-                  <p>
-                    Modern design is a term in the design world that refers to a
-                    house with a clean design, simple color choices, the use of
-                    materials including metal, glass, and steel, and is usually
-                    accompanied by clean lines.
-                  </p>
-                </li>
-                <li>
-                  <p>Contemporary</p>
-                </li>
-                <li>
-                  <p>Minimalis</p>
-                </li>
-                <li>
-                  <p>Industrial</p>
-                </li>
-                <li>
-                  <a href="!#">
-                    <p class="info">See more catagory</p>
-                  </a>
-                </li>
-              </ul>
+              <p>
+                We are ready to help you build and also realize the room design
+                that you dream of, with our experts and also the best category
+                recommendations from us
+              </p>
+              <button class="accordion">Modern</button>
+              <div class="panel">
+                <p>
+                  Modern design is a term in the design world that refers to a
+                  house with a clean design, simple color choices, the use of
+                  materials including metal, glass, and steel, and is usually
+                  accompanied by clean lines.
+                </p>
+              </div>
+              <button class="accordion">Contemporary</button>
+              <div class="panel">
+                <p>
+                  Modern design is a term in the design world that refers to a
+                  house with a clean design, simple color choices, the use of
+                  materials including metal, glass, and steel, and is usually
+                  accompanied by clean lines.
+                </p>
+              </div>
+              <button class="accordion">Minimalis</button>
+              <div class="panel">
+                <p>
+                  Modern design is a term in the design world that refers to a
+                  house with a clean design, simple color choices, the use of
+                  materials including metal, glass, and steel, and is usually
+                  accompanied by clean lines.
+                </p>
+              </div>
+              <button class="accordion">Industrial</button>
+              <div class="panel">
+                <p>
+                  Modern design is a term in the design world that refers to a
+                  house with a clean design, simple color choices, the use of
+                  materials including metal, glass, and steel, and is usually
+                  accompanied by clean lines.
+                </p>
+              </div>
+              <a href="!#">
+                <p class="info">See more catagory</p>
+              </a>
             </div>
             <div class="ideas__right-column flex-item">
               <picture>
@@ -463,6 +471,7 @@
     </div>
     <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script> -->
     <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/spoiler.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

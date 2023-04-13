@@ -250,6 +250,7 @@ body {
 
 .ideas__left-column {
   width: 870px;
+  max-height: 585px;
 }
 
 .ideas__right-column {
@@ -270,6 +271,10 @@ p {
   line-height: 36px;
   color: #564e4e;
 }
+
+ .ideas__left-column {
+  overflow-y: scroll;
+ }
 
 .ideas__left-column .info {
   color: #f79489;
