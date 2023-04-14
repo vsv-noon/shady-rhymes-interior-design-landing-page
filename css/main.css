@@ -273,7 +273,14 @@ p {
 
  .ideas__left-column {
   overflow-y: scroll;  
-  
+ }
+
+ ::-webkit-scrollbar-track {
+  background: #F79489;
+ }
+
+ ::-webkit-scrollbar-thumb {
+  background: #FADCD9;
  }
 
  body {

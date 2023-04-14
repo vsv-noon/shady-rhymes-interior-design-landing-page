@@ -31,7 +31,7 @@
 }
 
 .ideas__left-column .active, .accordion:hover {
-    background-color: #ccc;
+    /* background-color: #ccc; */
 }
 
 /* Стиль аккордеон панели. Примечание: скрыто по умолчанию */
