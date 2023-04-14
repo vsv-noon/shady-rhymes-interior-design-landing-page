@@ -277,7 +277,8 @@ p {
  }
 
  body {
-  scrollbar-color: green yellow;
+  scrollbar-width: thin;
+  scrollbar-color: #F79489 #FADCD9;
  }
 
 .ideas__left-column .info {
