@@ -395,10 +395,6 @@ form option {
 }
 
 .footer {
-  /* position: absolute;
-    width: 100%;
-    bottom: 0;    */
-
   color: #fadcd9;
   background: linear-gradient(275.58deg, #000000 0%, #4b4b4b 100%);
 }
@@ -647,7 +643,12 @@ form option {
   }
 
   .footer-logo {
-    margin-bottom: 56px;
+    /* width: 124px; */
+    margin-top: -20px;    
+  }
+
+  .footer-logo img {
+    width: 124px;
   }
 
   .footer-title {
@@ -663,5 +664,7 @@ form option {
   .copyright {
     font-size: 12px;
     line-height: 18px;
+    padding-top: 100px;
+    padding-bottom: 28px;    
   }
 }
