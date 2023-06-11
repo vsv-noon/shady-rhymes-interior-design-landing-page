@@ -104,4 +104,13 @@ html, body {
     .header :nth-child(2) {
         order: 2;
     }
+
+    .header {
+        justify-content: start;
+    }
+
+    .basket {
+        margin-left: 191px;
+        margin-right: 10px;
+    }
 }
