@@ -11,9 +11,7 @@
 }
 
 html,
-body {
-  
-}
+body {}
 
 body {
   font-family: "Poppins", sans-serif;
@@ -22,8 +20,8 @@ body {
 }
 
 .wrapper {
-    max-width: 1920px;
-    margin: 0 auto;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .header {
@@ -42,6 +40,7 @@ body {
   color: #fff;
   font-size: 18px;
   font-weight: 400;
+  overflow: hidden;
   /* line-height: 27px;        */
 }
 
@@ -285,8 +284,7 @@ form option {
   margin-right: 80px;
 }
 
-.customer-item {
-}
+.customer-item {}
 
 .customers .title {
   text-align: center;
@@ -420,7 +418,7 @@ form option {
 }
 
 .footer-title {
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
@@ -455,13 +453,14 @@ form option {
     width: 24px;
     height: 24px;
   }
+
   .header {
     padding: 20px;
     margin-bottom: 40px;
   }
 
   .header-menu {
-    display: none;
+    /* display: none; */
   }
 
   .interior-slogan {
@@ -644,7 +643,7 @@ form option {
 
   .footer-logo {
     /* width: 124px; */
-    margin-top: -20px;    
+    margin-top: -20px;
   }
 
   .footer-logo img {
@@ -665,6 +664,6 @@ form option {
     font-size: 12px;
     line-height: 18px;
     padding-top: 100px;
-    padding-bottom: 28px;    
+    padding-bottom: 28px;
   }
 }
